@@ -1,6 +1,7 @@
 # npmtest-run-parallel
 
-test coverage for  [run-parallel (v1.1.6)](https://github.com/feross/run-parallel)  [![npm package](https://img.shields.io/npm/v/npmtest-run-parallel.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-run-parallel) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-run-parallel.svg)](https://travis-ci.org/npmtest/node-npmtest-run-parallel)
+#### basic test coverage for  [run-parallel (v1.1.6)](https://github.com/feross/run-parallel)  [![npm package](https://img.shields.io/npm/v/npmtest-run-parallel.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-run-parallel) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-run-parallel.svg)](https://travis-ci.org/npmtest/node-npmtest-run-parallel)
+
 #### Run an array of functions in parallel
 
 [![NPM](https://nodei.co/npm/run-parallel.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/run-parallel)
@@ -9,7 +10,7 @@ test coverage for  [run-parallel (v1.1.6)](https://github.com/feross/run-paralle
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-run-parallel/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-run-parallel/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-run-parallel/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-run-parallel/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-run-parallel/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-run-parallel/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-run-parallel/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-run-parallel/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-run-parallel/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-run-parallel/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-run-parallel/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-run-parallel/build/coverage.html/index.html)
 
@@ -84,7 +85,8 @@ test coverage for  [run-parallel (v1.1.6)](https://github.com/feross/run-paralle
         "test-browser-local": "zuul --local -- test/*.js",
         "test-node": "tape test/*.js"
     },
-    "version": "1.1.6"
+    "version": "1.1.6",
+    "bin": {}
 }
 ```
 
